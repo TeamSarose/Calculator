@@ -1,2 +1,2 @@
 # Calculator
-Simple Calculator Developed Using HTML, CSS, Vanila JS
+A simple calculator developed using HTML, CSS, and vanilla JavaScript.
