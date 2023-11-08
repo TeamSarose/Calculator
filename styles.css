@@ -2,7 +2,9 @@ body{                        /* Centering the calculator */
     display: flex;
     justify-content: center;
     margin-top: 10vh;
+    background-color: antiquewhite; opacity:0.6;
 }
+
 .calculator{             /* Main Div */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
