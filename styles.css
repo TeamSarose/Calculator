@@ -1,8 +1,7 @@
-body{                        /* Centering the calculator */
+header h1{
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
-    background-color: antiquewhite; opacity:0.6;
+    padding-top: 1em;
 }
 
 .calculator{             /* Main Div */
@@ -10,11 +9,11 @@ body{                        /* Centering the calculator */
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 80px;
     width: 400px;
-    
+
 }
 
 .btn{                             /* bordering btn */
-    border: solid 1px #000;
+    border: solid 1px #313030;
     cursor: pointer;
 }
 

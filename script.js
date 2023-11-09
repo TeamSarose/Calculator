@@ -64,14 +64,14 @@ function calculateResult() {
                 currentInput = String(parseFloat(previousValue) + parseFloat(currentInput));
                 break;
                 case "-":
-                    currentInput = String(parseFloat(previousValue) - parseFloat(currentInput));
-                    break;
-                    case "*":
-                        currentInput = String(parseFloat(previousValue) * parseFloat(currentInput));
-                        break;
-                        case "/":
-                        if (parseFloat(currentInput) !== 0) {
-                            currentInput = String(parseFloat(previousValue) / parseFloat(currentInput));
+                currentInput = String(parseFloat(previousValue) - parseFloat(currentInput));
+                break;
+                case "*":
+                currentInput = String(parseFloat(previousValue) * parseFloat(currentInput));
+                break;
+                case "/":
+                    if (parseFloat(currentInput) !== 0) {
+                        urrentInput = String(parseFloat(previousValue) / parseFloat(currentInput));
                         } else {
                             currentInput = "Error";
                         }
